@@ -2,7 +2,7 @@ configuration:
   projectName: availability-service
 #Availability Service Port
 server:
- port: 8090
+ port: 8089
    
 logging:
  file: Availability.log
