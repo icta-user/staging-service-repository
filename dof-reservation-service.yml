@@ -2,7 +2,7 @@ configuration:
   projectName: reservation-service
 #Reservation Service Port
 server:
- port: 8086
+ port: 8085
 
 logging:
  file: Reservation.log
