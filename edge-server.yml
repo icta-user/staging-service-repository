@@ -105,17 +105,12 @@ zuul:
           serviceId: masl-roomtype-service           
 eureka:
   instance:
-    preferIpAddress: true
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
+    preferIpAddress: true   
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: false
-    lease:
-      duration: 5
-              
 ribbon:
   eureka:
     enabled: true
