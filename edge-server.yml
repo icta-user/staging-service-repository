@@ -8,6 +8,8 @@ endpoints:
     enabled: true
   health:
     sensitive: false
+  mapping:
+    DOWN: OK
 
 zuul:
   routes:
@@ -135,3 +137,10 @@ logging:
   level:
     ROOT: INFO
     org.springframework.web: DEBUG
+    
+management:
+ security:
+  enabled: false
+  info:
+   git:
+    mode: full
