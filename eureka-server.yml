@@ -31,7 +31,4 @@ eureka:
 logging:
  file: Eureka.log
  level: INFO
-   com:
-     netflix:
-       eureka: ON
-       discovery: ON
+  
