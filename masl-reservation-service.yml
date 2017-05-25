@@ -44,3 +44,5 @@ eureka:
       enabled: false
     lease:
       duration: 5
+schedule:
+  scheduleTimeGap: 10
