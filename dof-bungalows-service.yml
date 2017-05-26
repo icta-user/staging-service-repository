@@ -1,14 +1,13 @@
-     
 configuration:  
-  projectName: notification-service
-#Notification Service Port
+  projectName: bungalows-service
+#Bungalows Service Port
 server:
- port: 8099
+ port: 8083
    
 logging:
- file: Notification.log
+ file: Bungalows.log
  level: INFO
-
+ 
 # MongoDB Properties 
 spring:
  data:
@@ -38,12 +37,12 @@ spring:
 eureka:
   instance:
     preferIpAddress: true
-   # leaseRenewalIntervalInSeconds: 1
-   # leaseExpirationDurationInSeconds: 2
+    #leaseRenewalIntervalInSeconds: 1
+    #leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: false
-   # lease:
-   #   duration: 5
+    #lease:
+     # duration: 5
