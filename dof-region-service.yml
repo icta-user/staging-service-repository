@@ -44,5 +44,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: false
-    lease:
+   # lease:
       #duration: 5
