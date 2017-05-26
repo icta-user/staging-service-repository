@@ -2,7 +2,7 @@ configuration:
   projectName: user-service
 #User Service Port
 server:
- port: 8071
+ port: 8072
    
 logging:
  file: User.log
