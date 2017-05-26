@@ -33,7 +33,17 @@ spring:
    heartbeatSocketTimeout: 20000
    localThreshold: 15
    cursorFinalizerEnabled: true
-   
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+  mapping:
+    DOWN: OK
+
 eureka:
   instance:
     preferIpAddress: true
@@ -48,3 +58,9 @@ eureka:
       #duration: 5
 schedule:
   scheduleTimeGap: 10
+management:
+ security:
+  enabled: false
+  info:
+   git:
+    mode: full
