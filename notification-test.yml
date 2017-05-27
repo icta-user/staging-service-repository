@@ -3,7 +3,7 @@ configuration:
   projectName: notification-service
 #Bungalows Service Port
 server:
- port: 8096
+ port: 8094
    
 logging:
  file: Notification.log
