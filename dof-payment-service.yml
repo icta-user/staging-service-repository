@@ -2,7 +2,7 @@ configuration:
   projectName: payment-service
 #Payment Service Port
 server:
- port: 8096
+ port: 8098
 
 #Database properties
 #spring:
@@ -27,7 +27,7 @@ spring:
  data:
   mongodb:
    username: dofuser
-   database: ForestDB1
+   database: ForestDB
    password: g+H1ppDyrXldSwoLBo6c6Q==
    host: localhost
    port: 27017
