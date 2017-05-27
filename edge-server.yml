@@ -12,11 +12,6 @@ endpoints:
     DOWN: OK
 
 zuul:
-  host:
-    maxTotalConnections: 100000
-    maxPerRouteConnections: 10000
-  semaphore:
-    maxSemaphores: 1000 
   routes:
     dof-bungalows-service:
           path: /forestbungalow/**
@@ -107,7 +102,13 @@ zuul:
           serviceId: masl-permission-service 
     masl-roomtype-service:
           path: /maslroomtype/**
-          serviceId: masl-roomtype-service           
+          serviceId: masl-roomtype-service
+  host:
+    maxTotalConnections: 100000
+    maxPerRouteConnections: 10000
+  semaphore:
+    maxSemaphores: 1000 
+  
 eureka:
   instance:
     preferIpAddress: true
