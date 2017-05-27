@@ -103,11 +103,7 @@ zuul:
     masl-roomtype-service:
           path: /maslroomtype/**
           serviceId: masl-roomtype-service
-  Host:
-    maxTotalConnections: 100000
-    maxPerRouteConnections: 10000
-  semaphore:
-    maxSemaphores: 1000 
+  
   
 eureka:
   instance:
