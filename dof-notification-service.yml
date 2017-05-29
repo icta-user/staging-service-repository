@@ -47,3 +47,9 @@ eureka:
       enabled: false
     #lease:
       #duration: 5
+
+email:
+  smtpserver: smtp.gmail.com
+  smtpport: 465
+  emailaddress: s.viboosha.g@gmail.com
+  emailpassword: H25EQhbErFj/3bBSS/dK4A==
