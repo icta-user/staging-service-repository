@@ -58,6 +58,7 @@ eureka:
       #duration: 5
 schedule:
   scheduleTimeGap: 10
+  fixedDelay: 150000
 management:
  security:
   enabled: false
