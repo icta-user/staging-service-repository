@@ -34,6 +34,12 @@ spring:
    localThreshold: 15
    cursorFinalizerEnabled: true
    
+email:
+  smtpserver:smtp.gmail.com
+  smtpport:465
+  emailaddress:s.viboosha.g@gmail.com
+  
+   
 eureka:
   instance:
     preferIpAddress: true
