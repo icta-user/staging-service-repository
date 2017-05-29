@@ -121,6 +121,8 @@ eureka:
 ribbon:
   eureka:
     enabled: true
+  restclient:
+    enabled: true
 
 hystrix:
   command:
