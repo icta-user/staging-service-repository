@@ -57,7 +57,7 @@ eureka:
     #lease:
       #duration: 5
 schedule:
-  scheduleTimeGap: 1200000
+  scheduleTimeGap: 10
 management:
  security:
   enabled: false
