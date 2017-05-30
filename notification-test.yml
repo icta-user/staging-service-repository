@@ -48,7 +48,7 @@ eureka:
     #lease:
      # duration: 5
 email:
-  smtpserver: smtp.gmail.com
+  smtpserver: 192.168.2.6
   smtpport: 465
-  emailaddress: s.viboosha.g@gmail.com
-  emailpassword: H25EQhbErFj/3bBSS/dK4A==
+  emailaddress: forest@lankagate.gov.lk
+  emailpassword: qCF+Kbj2CWIc8I/QALG3nw==
