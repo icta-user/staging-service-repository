@@ -39,7 +39,7 @@ eureka:
     leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
-      defaultZone: http://10.62.101.23:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: false
     lease:
