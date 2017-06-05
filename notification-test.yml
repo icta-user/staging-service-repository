@@ -52,3 +52,6 @@ email:
   smtpport: 465
   emailaddress: forest@lankagate.gov.lk
   emailpassword: qCF+Kbj2CWIc8I/QALG3nw==
+  permitpath: /opt/webapps/notification/permit.html
+  permitpath1: /opt/webapps/notification/permit1.html
+  receiptpath: /opt/webapps/notification/receipt.html
