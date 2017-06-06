@@ -45,4 +45,4 @@ eureka:
     #lease:
       #duration: 5
 schedule:
-  scheduleTimeGap: 10
+  scheduleTimeGap: 3
