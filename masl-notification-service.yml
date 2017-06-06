@@ -5,14 +5,16 @@ server:
  port: 8099
    
 logging:
- file: MaslNotification.log
+ file: Notification.log
  level: INFO
 
 # MongoDB Properties 
 spring:
  data:
   mongodb:
-   database: MahaweliDB
+   dbuser: dofuser
+   database: ForestDB
+   password: g+H1ppDyrXldSwoLBo6c6Q==
    host: localhost
    port: 27017
    maxConnectionsPerHost: 10000
@@ -32,15 +34,25 @@ spring:
    localThreshold: 15
    cursorFinalizerEnabled: true
    
+   
 eureka:
   instance:
     preferIpAddress: true
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
+    #leaseRenewalIntervalInSeconds: 1
+    #leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
-      defaultZone: http://10.62.101.23:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: false
-    lease:
-      duration: 5
+    #lease:
+      #duration: 5
+
+email:
+  smtpserver: 192.168.2.6
+  smtpport: 465
+  emailaddress: forest@lankagate.gov.lk
+  emailpassword: qCF+Kbj2CWIc8I/QALG3nw==
+  permitpath: /opt/webapps/notification/permit.html
+  permitpath1: /opt/webapps/notification/permit1.html
+  receiptpath: /opt/webapps/notification/receipt.html
