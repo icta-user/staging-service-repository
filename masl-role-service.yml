@@ -2,7 +2,7 @@ configuration:
   projectName: role-service
 #Role Service Port
 server:
- port: 8076
+ port: 8078
    
 logging:
  file: MaslRole.log
