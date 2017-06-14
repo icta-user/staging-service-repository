@@ -57,3 +57,4 @@ email:
   permitpath1: /opt/webapps/notification/permit1.html
   receiptpath: /opt/webapps/notification/receipt.html
   bannerpath: eservices.forestdept.gov.lk/email-banner.png
+  from: MASL
