@@ -65,6 +65,5 @@ ntb:
   languageCode: en
   #keyPath: C:\\merchant\\keys\\
   #logPath: C:\\merchant\\keys\\logs\\
-
-  keyPath = /opt/cert/ntbpg/keys/
-  logPath = /opt/cert/ntbpg/keys/logs/
+  keyPath: /opt/cert/ntbpg/keys/
+  logPath: /opt/cert/ntbpg/keys/logs/
