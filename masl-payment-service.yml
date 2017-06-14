@@ -61,7 +61,7 @@ ntb:
   iPGServerURL: https://www.ipayamex.lk/ipg/servlet_pay
   action: SaleTxn
   currencyCode: LKR
-  merchantID: KaAexqwfnik+pt43CCBKyg==
+  merchantID: MAHAWELIAUTH
   languageCode: en
   keyPath: C:\\merchant\\keys\\
   logPath: C:\\merchant\\keys\\logs\\
