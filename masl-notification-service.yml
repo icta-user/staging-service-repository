@@ -13,7 +13,7 @@ spring:
  data:
   mongodb:
    dbuser: dofuser
-   database: ForestDB
+   database: MahaweliDB
    password: g+H1ppDyrXldSwoLBo6c6Q==
    host: localhost
    port: 27017
