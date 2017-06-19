@@ -12,8 +12,8 @@ logging:
 spring:
  data:
   mongodb:
-   database: ForestDB
    dbuser: dofuser
+   database: ForestDB
    password: g+H1ppDyrXldSwoLBo6c6Q==
    host: localhost
    port: 27017
