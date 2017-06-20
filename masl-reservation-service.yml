@@ -47,4 +47,4 @@ eureka:
     #lease:
       #duration: 5
 schedule:
-  scheduleTimeGap: 7
+  scheduleTimeGap: 30
