@@ -12,6 +12,7 @@ endpoints:
     DOWN: OK
 
 zuul:
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin 
   routes:
     dof-bungalows-service:
           path: /forestbungalow/**
@@ -106,7 +107,8 @@ zuul:
     masl-rooms-service:
           path: /maslroom/**
           serviceId: masl-rooms-service
-  
+   
+
   
 eureka:
   instance:
