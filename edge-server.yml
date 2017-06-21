@@ -106,7 +106,7 @@ zuul:
     masl-rooms-service:
           path: /maslroom/**
           serviceId: masl-rooms-service
-  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin 
+  #ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin 
 
   
 eureka:
@@ -138,7 +138,7 @@ hystrix:
             timeoutInMilliseconds: 60000
 
 server:
-  port: 8766
+  port: 8765
 
 logging:
   file: Edge.log
