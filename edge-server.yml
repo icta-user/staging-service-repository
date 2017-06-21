@@ -138,7 +138,7 @@ hystrix:
             timeoutInMilliseconds: 60000
 
 server:
-  port: 8766
+  port: 8765
 
 logging:
   file: Edge.log
