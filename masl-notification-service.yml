@@ -63,7 +63,7 @@ schedule:
   time: "0 0/2 0 * * *"
   
 sms:
-  uri: "http://govsms.icta.lk/"
+  uriSms: "http://govsms.icta.lk/"
   epr: "http://lankagate.gov.lk:9080/services/GovSMSMTHandlerProxy.GovSMSMTHandlerProxyHttpSoap11Endpoint"
   prefix: "govsms"
   user: "user"
