@@ -58,3 +58,6 @@ email:
   receiptpath: /opt/webapps/notification/receipt.html
   bannerpath: eservices.forestdept.gov.lk/email-banner.png
   from: MASL
+  
+shedule:
+  time: "0 0 6 * * *"
