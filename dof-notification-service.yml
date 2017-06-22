@@ -56,3 +56,17 @@ email:
   permitpath: /opt/webapps/notification/permit.html
   permitpath1: /opt/webapps/notification/permit1.html
   receiptpath: /opt/webapps/notification/receipt.html
+  bannerpath: eservices.forestdept.gov.lk/email-banner.png
+  from: Forest
+  
+sms:
+  uriSms: "http://govsms.icta.lk/"
+  epr: "http://lankagate.gov.lk:9080/services/GovSMSMTHandlerProxy.GovSMSMTHandlerProxyHttpSoap11Endpoint"
+  prefix: "govsms"
+  user: "user"
+  key: "key"
+  userTest: "icta"
+  keyTest: "g0v5ms123"
+  
+notificationService:
+      depCode: IctaTest
