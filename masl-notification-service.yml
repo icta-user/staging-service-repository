@@ -60,7 +60,7 @@ email:
   from: MASL
   
 schedule:
-  time: "0 0/2 0 * * *"
+  time: "0 0/2 * * * *"
   
 sms:
   uriSms: "http://govsms.icta.lk/"
