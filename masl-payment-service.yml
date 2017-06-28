@@ -56,7 +56,7 @@ sampath:
   FF_ENDPOINT: https://sampath.paycorp.com.au/rest/service/proxy
   FF_AUTHTOKEN: 9e6a333c-66e5-4a26-8ade-7c63bf69b611
   FF_HMAC_SECRET: 8Pq06a7TOYpRAQn3YsAmdYsOZeOw96Aj8bKV2Ecx40w=
-  FF_CLIENT_ID: RICWMTbBYMjnodRy4WjEyg==
+  FF_CLIENT_ID: eY3ndpA5/wlyZs+gAMHgCA==
 
 # NTB Payment Gateway Operations
 ntb:
