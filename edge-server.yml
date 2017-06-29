@@ -106,7 +106,7 @@ zuul:
     masl-rooms-service:
           path: /maslroom/**
           serviceId: masl-rooms-service
-  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin 
+ # ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin 
 
   
 eureka:
