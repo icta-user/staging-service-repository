@@ -127,8 +127,8 @@ ribbon:
     enabled: true
   restclient:
     enabled: true
-  ReadTimeout: 100000
-  ConnectTimeout: 100000 
+  ReadTimeout: 30000
+  ConnectTimeout: 30000 
   
 hystrix:
   command:
