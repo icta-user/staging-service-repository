@@ -63,13 +63,13 @@ schedule:
   time: "0 0 12 * * *"
   
 sms:
-  uriSms: "http://govsms.icta.lk/"
-  epr: "http://lankagate.gov.lk:9080/services/GovSMSMTHandlerProxy.GovSMSMTHandlerProxyHttpSoap11Endpoint"
+  uriSms: "w1dCFIkcAA2pSBqMOeV1O8nqqv1f4NjRQgpJ8b29JSc="
+  epr: "Z311JUw304Ow0hMBk9oYc+fdzeKdSKSs2U1C2aN0XVX63VNup/vcCyEOBBJXWrCPMw54Q9vY8NpNm971CjjAf4GLfUY7SVhI0bUsoBw0xt75r7F31Hx/P4axNYW3GvUW3hzifzi/Tcc40T/KmczX1w=="
   prefix: "govsms"
   user: "user"
   key: "key"
-  userTest: "icta"
-  keyTest: "g0v5ms123"
+  userTest: "t+zj9aG9w7Q+NATfc8Pn6g=="
+  keyTest: "pZSOnQ+os4Xw9xo8W7eq3A=="
   
 notificationService:
       depCode: IctaTest
