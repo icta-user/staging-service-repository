@@ -56,7 +56,7 @@ email:
   permitpath: /opt/webapps/notification/permit.html
   permitpath1: /opt/webapps/notification/permit1.html
   receiptpath: /opt/webapps/notification/receipt.html
-  bannerpath: eservices.forestdept.gov.lk/banner.png
+  bannerpath: /opt/webapps/notification/banner.png
   from: Forest
   
 sms:
