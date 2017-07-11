@@ -50,5 +50,5 @@ schedule:
   scheduleTimeGap: 30
 deductions:
   additionalTaxes : 2,5,3
-  convenianFee : 2
+  convenienceFee : 2
    
