@@ -48,3 +48,8 @@ eureka:
       #duration: 5
 schedule:
   scheduleTimeGap: 30
+
+additionalTaxes:
+  tax1: 5
+  tax2: 1
+  tax3: 4
