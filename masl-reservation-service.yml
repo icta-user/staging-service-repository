@@ -49,7 +49,6 @@ eureka:
 schedule:
   scheduleTimeGap: 30
 deductions:
-  additionalTaxes:
-    tax1: 5
-    tax2: 1
-    tax3: 4
+  additionalTaxes : 2,5,3
+  convenianFee : 2
+   
