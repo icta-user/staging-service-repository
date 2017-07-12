@@ -160,8 +160,8 @@ management:
   info:
    git:
     mode: full
-tokenUser: masluser
-tokenPassword: DghT@4%
+tokenUser: yzedbvDxew96seDOKtO6+Q==
+tokenPassword: E0oT1Wa9pIzmn0k/9NyDrw==
 tokenLifeTime: 86400000
 tokenIssuer: MASL
 tokenSecret: MASLTokenSecret
