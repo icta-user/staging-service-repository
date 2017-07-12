@@ -167,5 +167,7 @@ tokenIssuer: MASL
 tokenSecret: MASLTokenSecret
 tokenSubject: MASLServerAccess
 tokenId: MASLTokenId
-    
+
+authorizedHosts: 192.168.12.130, 192.168.12.131
+
     
