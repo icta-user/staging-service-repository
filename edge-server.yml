@@ -168,6 +168,6 @@ tokenSecret: MASLTokenSecret
 tokenSubject: MASLServerAccess
 tokenId: MASLTokenId
 
-authorizedHosts: 192.168.12.130, 192.168.12.131, 192.168.2.27,0:0:0:0:0:0:0:1
+authorizedHosts: 192.168.12.130, 192.168.12.131
 
     
