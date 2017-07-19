@@ -53,4 +53,9 @@ deductions:
   convenienceFee-sampath : 2.2
   convenienceFee-ntb : 3.25
   vatPercentage : 17.5
-   
+  discountMaslEmploee : 50
+  discountMaslOficialVisit: 100
+  
+requesterTypes:
+  maslEmployee : MASL Employee
+  maslOficialVisit : MASL official visit
