@@ -49,4 +49,4 @@ eureka:
       
 requestertype:
  # Employee: FD Employee
-  Employee: MASL Employee
+  Employee: MASL Employee,MASL official visit
