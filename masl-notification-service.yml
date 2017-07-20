@@ -53,14 +53,14 @@ email:
   smtpport: 465
   emailaddress: forest@lankagate.gov.lk
   emailpassword: qCF+Kbj2CWIc8I/QALG3nw==
-#  permitpath: /opt/webapps/notification/permit.html
-  permitpath: permit.html
- # permitpath1: /opt/webapps/notification/permit1.html
-  permitpath1: permit1.html
- # receiptpath: /opt/webapps/notification/receipt.html
-  receiptpath: receipt.html
- # bannerpath: /opt/webapps/notification/email-banner.png
-  bannerpath: email-banner.png
+  permitpath: /opt/webapps/notification/permit.html
+ # permitpath: permit.html
+  permitpath1: /opt/webapps/notification/permit1.html
+ # permitpath1: permit1.html
+  receiptpath: /opt/webapps/notification/receipt.html
+  #receiptpath: receipt.html
+  bannerpath: /opt/webapps/notification/email-banner.png
+#  bannerpath: email-banner.png
   from: MASL
   
 schedule:
