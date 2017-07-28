@@ -46,3 +46,6 @@ eureka:
       enabled: false
     #lease:
      # duration: 5
+
+reservationURL : http://dof-reservation-service/regions/001/bungalows/001/reservations/
+platform : masl
