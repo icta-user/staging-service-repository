@@ -71,3 +71,4 @@ ntb:
   #logPath: C:\\merchant\\keys\\logs\\
 
 reservationURL : http://masl-reservation-service/regions/001/bungalows/001/reservations/
+platform : masl
