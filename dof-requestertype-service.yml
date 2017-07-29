@@ -46,3 +46,5 @@ eureka:
       enabled: false
     #lease:
       #duration: 5
+requestertype:
+  Employee: FD Employee
