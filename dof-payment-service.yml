@@ -79,8 +79,8 @@ ntb:
   currencyCode: LKR
   merchantID: FORESTDPT
   languageCode: en
-  keyPath : /opt/cert/ntbpg/keys/
-  logPath : /opt/cert/ntbpg/keys/logs/
+  keyPath : /opt/webapps/cert/ntbpg/keys/
+  logPath : /opt/webapps/cert/ntbpg/keys/logs/
   
 reservationURL : http://dof-reservation-service/regions/001/bungalows/001/reservations/
 platform : dof
