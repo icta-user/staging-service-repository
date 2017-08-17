@@ -163,10 +163,10 @@ management:
 tokenUser: yzedbvDxew96seDOKtO6+Q==
 tokenPassword: E0oT1Wa9pIzmn0k/9NyDrw==
 tokenLifeTime: 86400000
-tokenIssuer: DOF
-tokenSecret: DOFTokenSecret
-tokenSubject: DOFServerAccess
-tokenId: DOFTokenId
+tokenIssuer: MASL
+tokenSecret: MASLTokenSecret
+tokenSubject: MASLServerAccess
+tokenId: MASLTokenId
 clientLogin : /masluser/user/clientLogin
 adminLogin : /masluser/user/login
 
