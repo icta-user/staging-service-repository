@@ -167,8 +167,8 @@ tokenIssuer: DOF
 tokenSecret: DOFTokenSecret
 tokenSubject: DOFServerAccess
 tokenId: DOFTokenId
-clientLogin : /forestuser/user/clientLogin
-adminLogin : /forestuser/user/login
+clientLogin : /masluser/user/clientLogin
+adminLogin : /masluser/user/login
 
 authorizedHosts: http://masl.lgcc.gov.lk/,http://localhost:4200/,http://localhost:4200/view-main/view-home-page,http://localhost:4200/view-main/view-error-page,http://localhost:4200/view-home,http://localhost:4200/view-oauthlogin,192.168.12.130
 
