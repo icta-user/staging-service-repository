@@ -163,10 +163,10 @@ management:
 tokenUser: yzedbvDxew96seDOKtO6+Q==
 tokenPassword: E0oT1Wa9pIzmn0k/9NyDrw==
 tokenLifeTime: 86400000
-tokenIssuer: MASL
-tokenSecret: MASLTokenSecret
-tokenSubject: MASLServerAccess
-tokenId: MASLTokenId
+tokenIssuer: DOF
+tokenSecret: DOFTokenSecret
+tokenSubject: DOFServerAccess
+tokenId: DOFTokenId
 clientLogin : /forestuser/user/clientLogin
 adminLogin : /forestuser/user/login
 
