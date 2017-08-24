@@ -17,3 +17,7 @@ eureka:
     lease:
       duration: 5
 maxLoginAttempts: 5
+
+management:
+ security:
+  enabled: false
