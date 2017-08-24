@@ -2,7 +2,7 @@ configuration:
   projectName: admin-server
 #User Service Port
 server:
- port: 8086
+ port: 8786
  
 eureka:
   instance:
