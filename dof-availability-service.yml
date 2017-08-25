@@ -46,3 +46,12 @@ eureka:
       enabled: false
    # lease:
       #duration: 5
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+  mapping:
+    DOWN: OK
