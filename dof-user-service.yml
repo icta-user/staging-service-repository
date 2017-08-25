@@ -55,3 +55,10 @@ tokenIssuer: DOF
 tokenSecret: DOFTokenSecret
 tokenSubject: DOFServerAccess
 tokenId: DOFTokenId
+
+management:
+ security:
+  enabled: false
+  info:
+   git:
+    mode: full
