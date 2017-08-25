@@ -55,3 +55,9 @@ endpoints:
     sensitive: false
   mapping:
     DOWN: OK
+management:
+ security:
+  enabled: false
+  info:
+   git:
+    mode: full
