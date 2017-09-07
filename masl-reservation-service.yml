@@ -8,6 +8,16 @@ logging:
  file: MaslReservation.log
  level: INFO
 
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+  mapping:
+    DOWN: OK
+
 # MongoDB Properties 
 spring:
  data:
@@ -59,3 +69,10 @@ deductions:
 requesterTypes:
   maslEmployee : MASL Employee
   maslOficialVisit : MASL Official Visit
+  
+management:
+ security:
+  enabled: false
+  info:
+   git:
+    mode: full
