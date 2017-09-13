@@ -59,10 +59,10 @@ eureka:
 schedule:
   scheduleTimeGap: 30
 deductions:
-  additionalTaxes : 7.5,10.5
+  additionalTaxes : 
   convenienceFee-sampath : 2.2
   convenienceFee-ntb : 3.25
-  vatPercentage : 17.5
+  vatPercentage : 0
   discountMaslEmploee : 50
   discountMaslOficialVisit: 100
   
