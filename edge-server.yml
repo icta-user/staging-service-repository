@@ -170,6 +170,6 @@ tokenId: DOFTokenId
 clientLogin : /forestuser/user/clientLogin
 adminLogin : /forestuser/user/login
 
-authorizedHosts: http://masl.lgcc.gov.lk/,http://masl.lgcc.gov.lk/view-home,http://masl.lgcc.gov.lk/view-main,http://localhost:4200/,http://localhost:4200/view-main/view-home-page,http://localhost:4200/view-main/view-error-page,http://localhost:4200/view-home,http://localhost:4200/view-login-page
+authorizedHosts: http://masl.lgcc.gov.lk/,http://masl.lgcc.gov.lk/view-home,http://masl.lgcc.gov.lk/view-main,http://localhost:4200/,http://localhost:4200/view-main/view-home-page,http://localhost:4200/view-main/view-error-page,http://localhost:4200/view-home,http://localhost:4200/,http://localhost:4200/view-login-page
 
     
