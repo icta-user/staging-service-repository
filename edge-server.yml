@@ -160,15 +160,24 @@ management:
   info:
    git:
     mode: full
+#tokenUser: yzedbvDxew96seDOKtO6+Q==
+#tokenPassword: E0oT1Wa9pIzmn0k/9NyDrw==
+#tokenLifeTime: 86400000
+#tokenIssuer: DOF
+#tokenSecret: DOFTokenSecret
+#tokenSubject: DOFServerAccess
+#tokenId: DOFTokenId
+#clientLogin : /forestuser/user/clientLogin
+#adminLogin : /forestuser/user/login
 tokenUser: yzedbvDxew96seDOKtO6+Q==
 tokenPassword: E0oT1Wa9pIzmn0k/9NyDrw==
 tokenLifeTime: 86400000
-tokenIssuer: DOF
-tokenSecret: DOFTokenSecret
-tokenSubject: DOFServerAccess
-tokenId: DOFTokenId
-clientLogin : /forestuser/user/clientLogin
-adminLogin : /forestuser/user/login
+tokenIssuer: MASL
+tokenSecret: MASLTokenSecret
+tokenSubject: MASLServerAccess
+tokenId: MASLTokenId
+clientLogin : /masluser/user/clientLogin
+adminLogin : /masluser/user/login
 
 authorizedHosts: http://masl.lgcc.gov.lk/,http://masl.lgcc.gov.lk/view-home,http://masl.lgcc.gov.lk/view-main,http://localhost:4200/,http://localhost:4200/view-main/view-home-page,http://localhost:4200/view-main/view-error-page,http://localhost:4200/view-home,http://localhost:4200/,http://localhost:4200/view-login-page
 
