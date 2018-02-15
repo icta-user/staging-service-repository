@@ -64,7 +64,7 @@ email:
   from: MASL
   
 schedule:
-  time: "0 0 12 * * *"
+  time: "* * * * * *"
   
 sms:
   uriSms: "w1dCFIkcAA2pSBqMOeV1O8nqqv1f4NjRQgpJ8b29JSc="
